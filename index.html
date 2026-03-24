@@ -1,27 +1,40 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en">
 <head>
-  <title>Sahaj Dashboard</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahaj - Government Schemes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-
-<header>
-  <h1>Sahaj</h1>
-</header>
-
-<nav>
-  <a href="index.html">Dashboard</a>
-  <a href="schemes.html">Schemes</a>
-  <a href="about.html">About</a>
-</nav>
-
-<div class="container">
-  <div class="card">
-    <h2>Welcome to Sahaj</h2>
-    <p>Find government schemes easily.</p>
-  </div>
+<body class="bg-gray-100 font-sans">  <!-- Navbar -->  <nav class="bg-blue-600 p-4 text-white flex justify-between">
+    <h1 class="text-xl font-bold">Sahaj</h1>
+    <div class="space-x-4">
+      <a href="#" class="hover:underline">Home</a>
+      <a href="#" class="hover:underline">Schemes</a>
+      <a href="#" class="hover:underline">Eligibility</a>
+      <a href="#" class="hover:underline">Contact</a>
+    </div>
+  </nav>  <!-- Hero Section -->  <section class="text-center py-16 bg-white">
+    <h2 class="text-3xl font-bold mb-4">Find Government Schemes Easily</h2>
+    <p class="text-gray-600 mb-6">All information about schemes, eligibility and benefits in one place</p>
+    <img src="https://source.unsplash.com/800x300/?india,government" class="mx-auto rounded-lg shadow">
+  </section>  <!-- Cards Section -->  <section class="p-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="bg-white p-6 rounded-xl shadow">
+      <img src="https://source.unsplash.com/300x200/?farmer" class="rounded mb-4">
+      <h3 class="text-xl font-semibold">Farmer Schemes</h3>
+      <p class="text-gray-600">Explore schemes for farmers and agriculture support.</p>
+    </div><div class="bg-white p-6 rounded-xl shadow">
+  <img src="https://source.unsplash.com/300x200/?student" class="rounded mb-4">
+  <h3 class="text-xl font-semibold">Student Schemes</h3>
+  <p class="text-gray-600">Scholarships and education benefits.</p>
 </div>
 
-</body>
+<div class="bg-white p-6 rounded-xl shadow">
+  <img src="https://source.unsplash.com/300x200/?business" class="rounded mb-4">
+  <h3 class="text-xl font-semibold">Business Schemes</h3>
+  <p class="text-gray-600">Startup and business funding support.</p>
+</div>
+
+  </section>  <!-- Footer -->  <footer class="bg-blue-600 text-white text-center p-4">
+    <p>© 2026 Sahaj Platform | Made for citizens</p>
+  </footer></body>
 </html>
